@@ -7,6 +7,10 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Image from "next/image"
 import Link from "next/link"
+import ecommerce from "/E-comerce.png"
+import inter from "/interview.png"
+import Ku from "/professor.png"
+import cokiri from "/cokiri.png"
 
 export default function ProjectsPage() {
   const [filter, setFilter] = useState("All")
@@ -16,7 +20,7 @@ export default function ProjectsPage() {
       title: "E-Commerce Platform",
       description:
         "A full-stack e-commerce solution with payment integration, admin dashboard, and real-time inventory management.",
-      image: "/E-comerce.png?height=300&width=400",
+      image: ecommerce.src,
       technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind CSS"],
       category: "Full Stack",
       featured: true,
@@ -26,7 +30,7 @@ export default function ProjectsPage() {
       title: "Job Interview Platform(In process)",
       description:
         "A platform for job seekers to apply for jobs and receive interviews.",
-      image: "/interview.png?height=300&width=400",
+      image: inter.src,
       technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
       category: "Full Stack",
       featured: false,
@@ -35,7 +39,7 @@ export default function ProjectsPage() {
     {
       title: "KU Professor Portal",
       description: "A platform for KU professors to manage their courses, lectures, and events.",
-      image: "/professor.png?height=300&width=400",
+      image: Ku.src,
       technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
       category: "Frontend",
       featured: false,
@@ -44,7 +48,7 @@ export default function ProjectsPage() {
     {
       title: "Institutional Research Platform",
       description: "A platform for researchers to collaborate and share their work.",
-      image: "/cokiri.png?height=300&width=400",
+      image: cokiri.src,
       technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
       category: "Full Stack",
       featured: false,

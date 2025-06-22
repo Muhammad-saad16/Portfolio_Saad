@@ -5,6 +5,7 @@ import { Download, Calendar, MapPin, Award, Users, Coffee } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Image from "next/image"
+import about from "/About.png"
 
 export default function AboutPage() {
   return (
@@ -35,7 +36,7 @@ export default function AboutPage() {
             >
               <div className="relative">
                 <Image
-                  src="/About.jpg"
+                  src={about}
                   alt="Muhammad Saad"
                   width={400}
                   height={500}

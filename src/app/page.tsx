@@ -1,4 +1,5 @@
 "use client"
+import Home from "/Home.jpg"
 
 import { motion } from "framer-motion"
 import { ArrowDown,  Mail,  Code, Palette, Database, Globe } from "lucide-react"
@@ -150,7 +151,7 @@ export default function HomePage() {
               <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-1">
                 <div className="w-full h-full rounded-full bg-slate-900 dark:bg-slate-900 light:bg-white flex items-center justify-center">
                   <Image
-                    src="/Home.jpg"
+                    src= {Home}
                     alt="Muhammad Saad"
                     width={300}
                     height={300}
