@@ -7,10 +7,10 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Image from "next/image"
 import Link from "next/link"
-import ecommerce from "/E-comerce.png"
-import inter from "/interview.png"
-import Ku from "/professor.png"
-import cokiri from "/cokiri.png"
+import ecommerce from "../../../Public/E-comerce.png"
+import inter from "../../../Public/interview.png"
+import Ku from "../../../Public/professor.png"
+import cokiri from "../../../Public/cokiri.png"
 
 export default function ProjectsPage() {
   const [filter, setFilter] = useState("All")

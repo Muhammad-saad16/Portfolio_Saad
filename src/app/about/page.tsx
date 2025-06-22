@@ -5,7 +5,7 @@ import { Download, Calendar, MapPin, Award, Users, Coffee } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Image from "next/image"
-import about from "/About.png"
+import about from "../../../Public/About.jpg"
 
 export default function AboutPage() {
   return (

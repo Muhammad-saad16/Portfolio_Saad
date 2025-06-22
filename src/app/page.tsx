@@ -1,5 +1,5 @@
 "use client"
-import Home from "/Home.jpg"
+import Home from "../../Public/Home.jpg"
 
 import { motion } from "framer-motion"
 import { ArrowDown,  Mail,  Code, Palette, Database, Globe } from "lucide-react"
